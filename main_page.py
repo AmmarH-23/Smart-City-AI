@@ -43,21 +43,21 @@ st.link_button("Click for more input widgets", "https://docs.streamlit.io/develo
 st.subheader('Click to navigate three pages Example', divider='grey')
 col1, col2, col3 = st.columns(3)
 with col1:
-   st.page_link("mainpage2.py", label="Home", icon="🏠", disabled=True)
+   st.page_link("main_page.py", label="Home", icon="🏠", disabled=True)
 
 with col2:
-   st.page_link("pages/page1.py", label="Page 1", icon="1️⃣")
+   st.page_link("pages/page_1.py", label="Page 1", icon="1️⃣")
 
 with col3:
-   st.page_link("pages/page2.py", label="Page 2", icon="2️⃣")
+   st.page_link("pages/page_2.py", label="Page 2", icon="2️⃣")
 
 
 st.subheader('Showing three pages vertically', divider='grey')
 
 # 
-st.page_link("mainpage2.py", label="Home", icon="🏠", disabled=True)
-st.page_link("pages/page1.py", label="Page 1", icon="1️⃣")
-st.page_link("pages/page2.py", label="Page 2", icon="2️⃣")
+st.page_link("main_page.py", label="Home", icon="🏠", disabled=True)
+st.page_link("pages/page_1.py", label="Page 1", icon="1️⃣")
+st.page_link("pages/page_2.py", label="Page 2", icon="2️⃣")
 
 
 st.subheader('Showing Tables', divider='grey')
