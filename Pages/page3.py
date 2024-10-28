@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-from openai import OpenAI
 
-client = OpenAI(api_key='INSET-API-KEY')
 
 # Initialize session state to store commute data
 if "commute_data" not in st.session_state:
